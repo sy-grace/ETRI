@@ -49,20 +49,20 @@ ETRI 라이프로그 데이터셋 활용 연구(ETRI 라이프로그 데이터�
 
 ## 2. 코드 실행 방법
 ### 2.1 데이터셋 다운로드
-ETRI 라이프로그 데이터셋(2020-2018)(https://nanum.etri.re.kr/share/schung1/ETRILifelogDataset2020?lang=ko_KR) 를 다운로드합니다.
-다운로드 후, preprocessing.ipynb 를 실행하여 전처리를 완료합니다.
+ETRI 라이프로그 데이터셋(2020-2018)(https://nanum.etri.re.kr/share/schung1/ETRILifelogDataset2020?lang=ko_KR) 를 다운로드한다.
+다운로드 후, preprocessing.ipynb 를 실행하여 전처리를 완료한다.
 
 ### 2.2 모델 성능 비교 실험
-모델 성능 비교 실험을 위해서 pycaret 라이브러리를 설치합니다. 
+모델 성능 비교 실험을 위해서 pycaret 라이브러리를 설치한다. 
 
     pip install pycaret
-설치 후 modeling.ipynb 를 실행하여 모델링을 진행합니다.
+설치 후 modeling.ipynb 를 실행하여 모델링을 진행한다.
 
 ### 2.3 XAI 실험
-XAI 실험을 위해서 shap 라이브러리를 설치합니다.
+XAI 실험을 위해서 shap 라이브러리를 설치한다.
 
     pip install shap
-설치 후 shap.ipynb 를 실행하여 XAI로 feature importance 결과를 확인합니다.
+설치 후 shap.ipynb 를 실행하여 XAI로 feature importance 결과를 확인.
 
 ## 3. 성능
 ### 3.1 모델별 성능비교 결과
