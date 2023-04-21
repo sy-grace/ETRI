@@ -74,12 +74,52 @@ XAI 실험을 위해서 shap 라이브러리를 설치합니다.
 
 
 ### 3.2 Feature Importance 결과
+첫번째 사진은 emotionPositive와 emotionTension의 전체적인 feature importance를 나타낸 것이다.
+나머지 사진들은 emotionPositive가 1-5의 값을 가질 때 emotionTension가 1-7의 값을 가질 때 shap value를 시각화한 결과이다.
+
+shap value 시각화에서 나타난 붉은색과 파란색은 해당 변수의 값이 높은 경우와 낮은 경우를 나타낸다. 붉은색으로 표시된 부분은 해당 변수의 값이 높아질 수록 해당 y_value의 출력값이 높아지는 경향을 보이며, 파란색으로 표시된 부분은 해당 변수의 값이 낮아질수록 출력값이 높아지는 경향을 미친다.
 
 #### 3.2.1 emotionPositive
 <img src="https://user-images.githubusercontent.com/90269177/233658640-e1c69efe-ade0-4052-9491-4ca0375b9129.png" width="473" height="526">
 
+emotionPositive가 1일 때 SHAP_value
+<img src="https://user-images.githubusercontent.com/90269177/233662886-48690e26-2c99-42dd-a9b3-8649f2da0b7b.png" width="473" height="526">
+
+emotionPositive가 2일 때 SHAP_value
+<img src="https://user-images.githubusercontent.com/90269177/233662924-8f812cf3-4c79-455f-9464-4f75a7468a44.png" width="473" height="526">
+
+emotionPositive가 3일 때 SHAP_value
+<img src="https://user-images.githubusercontent.com/90269177/233662977-78a0c5b0-0598-4acf-b5c1-dcdf32df5258.png" width="473" height="526">
+
+emotionPositive가 4일 때 SHAP_value
+<img src="https://user-images.githubusercontent.com/90269177/233663017-0d8aec8f-c09f-4206-ac41-54e5032dab9e.png" width="473" height="526">
+
+emotionPositive가 5일 때 SHAP_value
+<img src="https://user-images.githubusercontent.com/90269177/233664307-339bb06d-c8af-4e94-a9c2-fb0927ee6997.png" width="473" height="526">
+
 #### 3.2.2 emotionTension
 <img src="https://user-images.githubusercontent.com/90269177/233658878-fb210050-30a7-4e23-80f3-469915c4c1b3.png" width="473" height="526">
+
+emotionTension가 1일 때 SHAP_value
+<img src="https://user-images.githubusercontent.com/90269177/233668980-334a605a-a616-4529-bbbc-8e55cfb7ee18.png" width="473" height="526">
+
+emotionTension가 2일 때 SHAP_value
+<img src="https://user-images.githubusercontent.com/90269177/233668992-87bf71ec-e6cd-4e21-9544-6cf5b4521b9f.png" width="473" height="526">
+
+emotionTension가 3일 때 SHAP_value
+<img src="https://user-images.githubusercontent.com/90269177/233669014-0109e60d-7794-4d5b-af9b-7a89c99b7848.png" width="473" height="526">
+
+emotionTension가 4일 때 SHAP_value
+<img src="https://user-images.githubusercontent.com/90269177/233669038-ccb10ca7-3edc-442b-89dd-90cf90b34957.png" width="473" height="526">
+
+emotionTension가 5일 때 SHAP_value
+<img src="https://user-images.githubusercontent.com/90269177/233669417-56341894-8da6-4803-b35c-ed490c21a640.png" width="473" height="526">
+
+emotionTension가 6일 때 SHAP_value
+<img src="https://user-images.githubusercontent.com/90269177/233669055-47d4c6a9-015e-4d35-87f6-af7e760e5282.png" width="473" height="526">
+
+emotionTension가 7일 때 SHAP_value
+<img src="https://user-images.githubusercontent.com/90269177/233669072-17de746a-6bfd-4e21-b58a-1915d9f30752.png" width="473" height="526">
 
 ## 4. Reference
 [1] Haag, Andreas, et al. "Emotion recognition using bio-sensors: First steps towards an automatic system." Affective Dialogue Systems: Tutorial and Research Workshop, ADS 2004, Kloster Irsee, Germany, June 14-16, 2004. Proceedings. Springer Berlin Heidelberg, 2004.
