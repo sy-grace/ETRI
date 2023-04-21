@@ -83,19 +83,19 @@ shap value 시각화에서 나타난 붉은색과 파란색은 해당 변수의 
 <img src="https://user-images.githubusercontent.com/90269177/233658640-e1c69efe-ade0-4052-9491-4ca0375b9129.png" width="473" height="526">
 
 emotionPositive가 1일 때 SHAP_value
-<img src="https://user-images.githubusercontent.com/90269177/233662886-48690e26-2c99-42dd-a9b3-8649f2da0b7b.png" width="473" height="526">
+    <img src="https://user-images.githubusercontent.com/90269177/233662886-48690e26-2c99-42dd-a9b3-8649f2da0b7b.png" width="473" height="526">
 
 emotionPositive가 2일 때 SHAP_value
-<img src="https://user-images.githubusercontent.com/90269177/233662924-8f812cf3-4c79-455f-9464-4f75a7468a44.png" width="473" height="526">
+    <img src="https://user-images.githubusercontent.com/90269177/233662924-8f812cf3-4c79-455f-9464-4f75a7468a44.png" width="473" height="526">
 
 emotionPositive가 3일 때 SHAP_value
-<img src="https://user-images.githubusercontent.com/90269177/233662977-78a0c5b0-0598-4acf-b5c1-dcdf32df5258.png" width="473" height="526">
+    <img src="https://user-images.githubusercontent.com/90269177/233662977-78a0c5b0-0598-4acf-b5c1-dcdf32df5258.png" width="473" height="526">
 
 emotionPositive가 4일 때 SHAP_value
-<img src="https://user-images.githubusercontent.com/90269177/233663017-0d8aec8f-c09f-4206-ac41-54e5032dab9e.png" width="473" height="526">
+    <img src="https://user-images.githubusercontent.com/90269177/233663017-0d8aec8f-c09f-4206-ac41-54e5032dab9e.png" width="473" height="526">
 
 emotionPositive가 5일 때 SHAP_value
-<img src="https://user-images.githubusercontent.com/90269177/233664307-339bb06d-c8af-4e94-a9c2-fb0927ee6997.png" width="473" height="526">
+    <img src="https://user-images.githubusercontent.com/90269177/233664307-339bb06d-c8af-4e94-a9c2-fb0927ee6997.png" width="473" height="526">
 
 #### 3.2.2 emotionTension
 <img src="https://user-images.githubusercontent.com/90269177/233658878-fb210050-30a7-4e23-80f3-469915c4c1b3.png" width="473" height="526">
