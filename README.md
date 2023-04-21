@@ -17,9 +17,8 @@ ETRI 라이프로그 데이터셋 활용 연구(ETRI 라이프로그 데이터�
 ### 1.2 진행 실험
 - Random Forest와 KNN 등의 인공지능 모델을 활용하여 멀티모달 데이터를 바탕으로 사용자의 감정을 분석, 예측하는 연구를 진행한다.
 - Explainable Artificial Intelligence(XAI) 기술을 사용하여 감정 예측에 사용되는 feature가 어떤 영향을 미치는지 뚜렷하게 파악하여 블랙박스 문제를 해결하고자 한다. 
-<center>
-  <img src="https://user-images.githubusercontent.com/90269177/233654468-8e6e42b1-5355-47b9-8971-b1228a30b459.png" width="473" height="526">
-</center>
+
+<img src="https://user-images.githubusercontent.com/90269177/233654468-8e6e42b1-5355-47b9-8971-b1228a30b459.png" width="473" height="526">
 
 ### 1.3 코드 설명
 - preprocessing.ipynb : 데이터셋 전처리
@@ -68,7 +67,14 @@ XAI 실험을 위해서 shap 라이브러리를 설치합니다.
 ## 3. 성능
 ### 3.1 모델별 성능비교 결과
 
-(표 삽입)
+<img src="https://user-images.githubusercontent.com/90269177/233656395-df5f0636-03fc-45ca-abed-949b23d292e6.PNG" width="524" height="279">
+
+<img src="https://user-images.githubusercontent.com/90269177/233656411-ed0c734f-5d9f-4f11-9406-28a9551e75d3.PNG" width="524" height="279">
+
+<img src="https://user-images.githubusercontent.com/90269177/233656311-dc4a3986-84cb-48c8-87a1-5c76861f9303.PNG" width="524" height="279">
+
+<img src="https://user-images.githubusercontent.com/90269177/233656353-7471e681-c5ba-4d1d-9ceb-4d2a1ec368da.PNG" width="524" height="279">
+
 
 ### 3.2 Feature Importance 결과
 
