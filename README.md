@@ -18,7 +18,7 @@ ETRI 라이프로그 데이터셋 활용 연구(ETRI 라이프로그 데이터�
 - Random Forest와 KNN 등의 인공지능 모델을 활용하여 멀티모달 데이터를 바탕으로 사용자의 감정을 분석, 예측하는 연구를 진행한다.
 - Explainable Artificial Intelligence(XAI) 기술을 사용하여 감정 예측에 사용되는 feature가 어떤 영향을 미치는지 뚜렷하게 파악하여 블랙박스 문제를 해결하고자 한다. 
 
-![프레임워크](https://github.com/sy-grace/ETRI/issues/1#issuecomment-1517872912)
+![framework](https://user-images.githubusercontent.com/90269177/233654468-8e6e42b1-5355-47b9-8971-b1228a30b459.png)
 
 ### 1.3 코드 설명
 - preprocessing.ipynb : 데이터셋 전처리
@@ -49,7 +49,7 @@ ETRI 라이프로그 데이터셋 활용 연구(ETRI 라이프로그 데이터�
 
 ## 2. 코드 실행 방법
 ### 2.1 데이터셋 다운로드
-ETRI 라이프로그 데이터셋(2020-2018)(https://nanum.etri.re.kr/share/schung1/ETRILifelogDataset2020?lang=ko_KR)를 다운로드합니다.
+ETRI 라이프로그 데이터셋(2020-2018)(https://nanum.etri.re.kr/share/schung1/ETRILifelogDataset2020?lang=ko_KR) 를 다운로드합니다.
 다운로드 후, preprocessing.ipynb 를 실행하여 전처리를 완료합니다.
 
 ### 2.2 모델 성능 비교 실험
