@@ -79,10 +79,7 @@ XAI 실험을 위해서 shap 라이브러리를 설치합니다.
 
 ## 4. Reference
 [1] Haag, Andreas, et al. "Emotion recognition using bio-sensors: First steps towards an automatic system." Affective Dialogue Systems: Tutorial and Research Workshop, ADS 2004, Kloster Irsee, Germany, June 14-16, 2004. Proceedings. Springer Berlin Heidelberg, 2004.
-
 [2]Seungeun Chung, Chi Yoon Jeong, Jeong Mook Lim, Jiyoun Lim, Kyoung Ju Noh, Gague Kim, Hyuntae Jeong,
 Real-world multimodal lifelog dataset for human behavior study. ETRI Journal 43(6), 2021 
-
 [3] Jenke, Robert, Angelika Peer, and Martin Buss. "Feature extraction and selection for emotion recognition from EEG." IEEE Transactions on Affective computing 5.3 327-339, 2014
-
 [4] Breiman, Leo. "Random forests." Machine learning 45 5-32, 2001
