@@ -75,10 +75,10 @@ XAI 실험을 위해서 shap 라이브러리를 설치합니다.
 
 ### 3.2 Feature Importance 결과
 
-## emotionPositive
+#### 3.2.1 emotionPositive
 <img src="https://user-images.githubusercontent.com/90269177/233658640-e1c69efe-ade0-4052-9491-4ca0375b9129.png" width="473" height="526">
 
-## emotionTension
+#### 3.2.2 emotionTension
 <img src="https://user-images.githubusercontent.com/90269177/233658878-fb210050-30a7-4e23-80f3-469915c4c1b3.png" width="473" height="526">
 
 ## 4. Reference
