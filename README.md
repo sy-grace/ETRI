@@ -67,10 +67,10 @@ XAI 실험을 위해서 shap 라이브러리를 설치한다.
 ## 3. 성능
 ### 3.1 모델별 성능비교 결과
 
-<img src="https://user-images.githubusercontent.com/90269177/233656395-df5f0636-03fc-45ca-abed-949b23d292e6.PNG" width="530" height="279">
-<img src="https://user-images.githubusercontent.com/90269177/233656411-ed0c734f-5d9f-4f11-9406-28a9551e75d3.PNG" width="530" height="279">
-<img src="https://user-images.githubusercontent.com/90269177/233656311-dc4a3986-84cb-48c8-87a1-5c76861f9303.PNG" width="530" height="279">
-<img src="https://user-images.githubusercontent.com/90269177/233656353-7471e681-c5ba-4d1d-9ceb-4d2a1ec368da.PNG" width="530" height="279">
+<img src="https://user-images.githubusercontent.com/90269177/233656395-df5f0636-03fc-45ca-abed-949b23d292e6.PNG" width="65%" height="65%">
+<img src="https://user-images.githubusercontent.com/90269177/233656411-ed0c734f-5d9f-4f11-9406-28a9551e75d3.PNG" width="65%" height="65%">
+<img src="https://user-images.githubusercontent.com/90269177/233656311-dc4a3986-84cb-48c8-87a1-5c76861f9303.PNG" width="65%" height="65%">
+<img src="https://user-images.githubusercontent.com/90269177/233656353-7471e681-c5ba-4d1d-9ceb-4d2a1ec368da.PNG" width="65%" height="65%">
 
 
 ### 3.2 Feature Importance 결과
@@ -80,46 +80,74 @@ XAI 실험을 위해서 shap 라이브러리를 설치한다.
 shap value 시각화에서 나타난 붉은색과 파란색은 해당 변수의 값이 높은 경우와 낮은 경우를 나타낸다. 붉은색으로 표시된 부분은 해당 변수의 값이 높아질 수록 해당 y_value의 출력값이 높아지는 경향을 보이며, 파란색으로 표시된 부분은 해당 변수의 값이 낮아질수록 출력값이 높아지는 경향을 미친다.
 
 #### 3.2.1 emotionPositive
-<img src="https://user-images.githubusercontent.com/90269177/233658640-e1c69efe-ade0-4052-9491-4ca0375b9129.png" width="473" height="526">
+<figure>
+    <img src="https://user-images.githubusercontent.com/90269177/233658640-e1c69efe-ade0-4052-9491-4ca0375b9129.png" width="473" height="526">
+</figure>
 
-emotionPositive가 1일 때 SHAP_value
+- emotionPositive가 1일 때 SHAP_value
+<figure>
     <img src="https://user-images.githubusercontent.com/90269177/233662886-48690e26-2c99-42dd-a9b3-8649f2da0b7b.png" width="473" height="526">
+</figure>
 
-emotionPositive가 2일 때 SHAP_value
+- emotionPositive가 2일 때 SHAP_value
+<figure>
     <img src="https://user-images.githubusercontent.com/90269177/233662924-8f812cf3-4c79-455f-9464-4f75a7468a44.png" width="473" height="526">
+</figure>
 
-emotionPositive가 3일 때 SHAP_value
+- emotionPositive가 3일 때 SHAP_value
+<figure>
     <img src="https://user-images.githubusercontent.com/90269177/233662977-78a0c5b0-0598-4acf-b5c1-dcdf32df5258.png" width="473" height="526">
+</figure>
 
-emotionPositive가 4일 때 SHAP_value
+- emotionPositive가 4일 때 SHAP_value
+<figure>
     <img src="https://user-images.githubusercontent.com/90269177/233663017-0d8aec8f-c09f-4206-ac41-54e5032dab9e.png" width="473" height="526">
+</figure>
 
-emotionPositive가 5일 때 SHAP_value
+- emotionPositive가 5일 때 SHAP_value
+<figure>
     <img src="https://user-images.githubusercontent.com/90269177/233664307-339bb06d-c8af-4e94-a9c2-fb0927ee6997.png" width="473" height="526">
+</figure>
 
 #### 3.2.2 emotionTension
-<img src="https://user-images.githubusercontent.com/90269177/233658878-fb210050-30a7-4e23-80f3-469915c4c1b3.png" width="473" height="526">
+<figure>
+    <img src="https://user-images.githubusercontent.com/90269177/233658878-fb210050-30a7-4e23-80f3-469915c4c1b3.png" width="473" height="526">
+</figure>
 
-emotionTension가 1일 때 SHAP_value
-<img src="https://user-images.githubusercontent.com/90269177/233668980-334a605a-a616-4529-bbbc-8e55cfb7ee18.png" width="473" height="526">
+- emotionTension이 1일 때 SHAP_value
+<figure>
+    <img src="https://user-images.githubusercontent.com/90269177/233668980-334a605a-a616-4529-bbbc-8e55cfb7ee18.png" width="473" height="526">
+</figure>
 
-emotionTension가 2일 때 SHAP_value
-<img src="https://user-images.githubusercontent.com/90269177/233668992-87bf71ec-e6cd-4e21-9544-6cf5b4521b9f.png" width="473" height="526">
+- emotionTension이 2일 때 SHAP_value
+<figure>
+    <img src="https://user-images.githubusercontent.com/90269177/233668992-87bf71ec-e6cd-4e21-9544-6cf5b4521b9f.png" width="473" height="526">
+</figure>
 
-emotionTension가 3일 때 SHAP_value
-<img src="https://user-images.githubusercontent.com/90269177/233669014-0109e60d-7794-4d5b-af9b-7a89c99b7848.png" width="473" height="526">
+- emotionTension이 3일 때 SHAP_value
+<figure>
+    <img src="https://user-images.githubusercontent.com/90269177/233669014-0109e60d-7794-4d5b-af9b-7a89c99b7848.png" width="473" height="526">
+</figure>
 
-emotionTension가 4일 때 SHAP_value
-<img src="https://user-images.githubusercontent.com/90269177/233669038-ccb10ca7-3edc-442b-89dd-90cf90b34957.png" width="473" height="526">
+- emotionTension이 4일 때 SHAP_value
+<figure>
+    <img src="https://user-images.githubusercontent.com/90269177/233669038-ccb10ca7-3edc-442b-89dd-90cf90b34957.png" width="473" height="526">
+</figure>
 
-emotionTension가 5일 때 SHAP_value
-<img src="https://user-images.githubusercontent.com/90269177/233669417-56341894-8da6-4803-b35c-ed490c21a640.png" width="473" height="526">
+- emotionTension가 5일 때 SHAP_value
+<figure>
+    <img src="https://user-images.githubusercontent.com/90269177/233669417-56341894-8da6-4803-b35c-ed490c21a640.png" width="473" height="526">
+</figure>
 
-emotionTension가 6일 때 SHAP_value
-<img src="https://user-images.githubusercontent.com/90269177/233669055-47d4c6a9-015e-4d35-87f6-af7e760e5282.png" width="473" height="526">
+- emotionTension이 6일 때 SHAP_value
+<figure>
+    <img src="https://user-images.githubusercontent.com/90269177/233669055-47d4c6a9-015e-4d35-87f6-af7e760e5282.png" width="473" height="526">
+</figure>
 
-emotionTension가 7일 때 SHAP_value
-<img src="https://user-images.githubusercontent.com/90269177/233669072-17de746a-6bfd-4e21-b58a-1915d9f30752.png" width="473" height="526">
+- emotionTension이 7일 때 SHAP_value
+<figure>
+    <img src="https://user-images.githubusercontent.com/90269177/233669072-17de746a-6bfd-4e21-b58a-1915d9f30752.png" width="473" height="526">
+</figure>
 
 ## 4. Reference
 [1] Haag, Andreas, et al. "Emotion recognition using bio-sensors: First steps towards an automatic system." Affective Dialogue Systems: Tutorial and Research Workshop, ADS 2004, Kloster Irsee, Germany, June 14-16, 2004. Proceedings. Springer Berlin Heidelberg, 2004.
