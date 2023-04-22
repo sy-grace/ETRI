@@ -67,10 +67,10 @@ XAI 실험을 위해서 shap 라이브러리를 설치한다.
 ## 3. 성능
 ### 3.1 모델별 성능비교 결과
 
-<img src="https://user-images.githubusercontent.com/90269177/233656395-df5f0636-03fc-45ca-abed-949b23d292e6.PNG" width="65%" height="65%">
-<img src="https://user-images.githubusercontent.com/90269177/233656411-ed0c734f-5d9f-4f11-9406-28a9551e75d3.PNG" width="65%" height="65%">
-<img src="https://user-images.githubusercontent.com/90269177/233656311-dc4a3986-84cb-48c8-87a1-5c76861f9303.PNG" width="65%" height="65%">
-<img src="https://user-images.githubusercontent.com/90269177/233656353-7471e681-c5ba-4d1d-9ceb-4d2a1ec368da.PNG" width="65%" height="65%">
+<img src="https://user-images.githubusercontent.com/90269177/233656395-df5f0636-03fc-45ca-abed-949b23d292e6.PNG" width="60%" height="60%">
+<img src="https://user-images.githubusercontent.com/90269177/233656411-ed0c734f-5d9f-4f11-9406-28a9551e75d3.PNG" width="60%" height="60%">
+<img src="https://user-images.githubusercontent.com/90269177/233656311-dc4a3986-84cb-48c8-87a1-5c76861f9303.PNG" width="60%" height="60%">
+<img src="https://user-images.githubusercontent.com/90269177/233656353-7471e681-c5ba-4d1d-9ceb-4d2a1ec368da.PNG" width="60%" height="60%">
 
 
 ### 3.2 Feature Importance 결과
