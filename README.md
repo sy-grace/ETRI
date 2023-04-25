@@ -49,8 +49,24 @@ ETRI 라이프로그 데이터셋 활용 연구(ETRI 라이프로그 데이터�
 
 ## 2. 코드 실행 방법
 ### 2.1 데이터셋 다운로드
-ETRI 라이프로그 데이터셋(2020-2018)(https://nanum.etri.re.kr/share/schung1/ETRILifelogDataset2020?lang=ko_KR) 를 다운로드한다.
-다운로드 후, preprocessing.ipynb 를 실행하여 전처리를 완료한다.
+
+ETRI 라이프로그 데이터셋(2020-2018)을 다운로드한다. 다운로드 후, preprocessing.ipynb 를 실행하여 전처리를 완료한다.
+
+링크: <https://nanum.etri.re.kr/share/schung1/ETRILifelogDataset2020?lang=ko_KR>
+
+데이터 파일명
+* 2018 data
+* 2019 data
+* user01-06 data
+* user07-10 data
+* user11-12 data
+* user21-25 data
+* user26-30 data
+* 2019-2018 수면 측정 데이터
+* 2020 수면 측정 데이터
+* 2019-2018 수면관련 설문결과
+* 2020 수면관련 설문결과
+
 
 ### 2.2 모델 성능 비교 실험
 모델 성능 비교 실험을 위해서 pycaret 라이브러리를 설치한다. 
