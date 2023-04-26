@@ -82,12 +82,41 @@ XAI 실험을 위해서 shap 라이브러리를 설치한다.
 
 ## 3. 성능
 ### 3.1 모델별 성능비교 결과
+#### 3.1.1 emotionPositive 예측 모델 성능 비교
 
-<img src="https://user-images.githubusercontent.com/90269177/233656395-df5f0636-03fc-45ca-abed-949b23d292e6.PNG" width="60%" height="60%">
-<img src="https://user-images.githubusercontent.com/90269177/233656411-ed0c734f-5d9f-4f11-9406-28a9551e75d3.PNG" width="60%" height="60%">
-<img src="https://user-images.githubusercontent.com/90269177/233656311-dc4a3986-84cb-48c8-87a1-5c76861f9303.PNG" width="60%" height="60%">
-<img src="https://user-images.githubusercontent.com/90269177/233656353-7471e681-c5ba-4d1d-9ceb-4d2a1ec368da.PNG" width="60%" height="60%">
+| 모델명                 | accuracy   | recall     | precision  | F1-score |
+| ---------------------- | ---------- | ---------- | ---------- | -------- |
+|KNN                     | 0.8161     | 0.8399     | 0.8412     | 0.8406   |
+| **Random Forest**      | **0.8700** | **0.8868** | **0.8893** |**0.8893**|
+| Extra Trees Classifier | 0.8610     | 0.8799     | 0.8868     | 0.8833   |
+| Decision Tree          | 0.8261     | 0.8454     | 0.8556     | 0.8505   |
 
+#### 3.1.2 emotionTension 예측 모델 성능 비교
+
+| 모델명                 | accuracy   | recall     | precision  | F1-score |
+| ---------------------- | ---------- | ---------- | ---------- | -------- |
+|KNN                     | 0.7758     | 0.7767     | 0.7729     | 0.7746   |
+| **Random Forest**      | **0.8488** | **0.8483** | **0.8455** |**0.8468**|
+| Extra Trees Classifier | 0.8352     | 0.8345     | 0.8322     | 0.8333   |
+| Decision Tree          | 0.7978     | 0.7964     | 0.7947     | 0.7955   |
+
+#### 3.1.3 센서 데이터만 사용하여 emotionPositive 예측 모델 성능 비교
+
+| 모델명                 | accuracy   | recall     | precision  | F1-score |
+| ---------------------- | ---------- | ---------- | ---------- | -------- |
+|KNN                     | 0.2843     | 0.1903     | 0.2610     | 0.2137   |
+| **Random Forest**      | **0.2867** | **0.1792** | **0.2640** |**0.1828**|
+| Extra Trees Classifier | 0.2832     | 0.0342     | 0.6007     | 0.0587   |
+| Decision Tree          | 0.2907     | 0.1377     | 0.2930     | 0.1605   |
+
+#### 3.1.4 센서 데이터만 사용하여 emotionTension 예측 모델 성능 비교
+
+| 모델명                 | accuracy   | recall     | precision  | F1-score |
+| ---------------------- | ---------- | ---------- | ---------- | -------- |
+|KNN                     | 0.2203     | 0.2262     | 0.2231     | 0.2194   |
+| **Random Forest**      | **0.2531** | **0.2736** | **0.2340** |**0.1953**|
+| Extra Trees Classifier | 0.2471     | 0.2689     | 0.3013     | 0.1202   |
+| Decision Tree          | 0.2492     | 0.2663     | 0.2439     | 0.2387   |
 
 ### 3.2 Feature Importance 결과
 첫번째 사진은 emotionPositive와 emotionTension의 전체적인 feature importance를 나타낸 것이다.
